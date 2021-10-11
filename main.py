@@ -13,4 +13,4 @@ def wordcounter():
     return len(words)
 
 print(wordcounter())
-#test
+#test nog een test
