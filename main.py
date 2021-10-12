@@ -6,11 +6,16 @@ def wordcounter():
         line = input()
         if line != '!--!':
             lines.append(line)
+    if lines.count('') == True:
+        lines.remove('')
 
-    lines.remove('')
     text = '\n'.join(lines)
     words = text.split()
     return len(words)
 
 print(wordcounter())
-#test nog een test
+
+
+
+
+#bool(
